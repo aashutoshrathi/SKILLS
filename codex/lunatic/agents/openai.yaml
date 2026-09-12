@@ -1,0 +1,7 @@
+interface:
+  display_name: "Lunatic"
+  short_description: "Plan deeply, execute cheaply, review rigorously"
+  default_prompt: "Use $lunatic to plan and execute this engineering ticket with model-routed subagents."
+
+policy:
+  allow_implicit_invocation: true
