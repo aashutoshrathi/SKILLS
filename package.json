@@ -1,0 +1,29 @@
+{
+  "name": "@aashutoshrathi/agent-skills",
+  "version": "1.0.0",
+  "description": "A collection of powerful, agent-agnostic skills and Claude commands by @aashutoshrathi.",
+  "bin": {
+    "agent-skills": "./bin/install.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aashutoshrathi/SKILLS.git"
+  },
+  "keywords": [
+    "ai",
+    "agents",
+    "claude",
+    "skills",
+    "automation",
+    "productivity"
+  ],
+  "author": "Aashutosh Rathi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aashutoshrathi/SKILLS/issues"
+  },
+  "homepage": "https://github.com/aashutoshrathi/SKILLS#readme"
+}

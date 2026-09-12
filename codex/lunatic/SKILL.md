@@ -18,7 +18,7 @@ Route the workflow without expanding authorization:
 
 ## 1. Run a fast complexity gate
 
-Use `gpt-5.6-sol` at `xhigh` for one tightly scoped triage pass. If the current orchestrator is already that model and effort, perform the gate directly; otherwise delegate it. Give the gate only the request and the minimum context needed to classify it—do not duplicate a full repository investigation.
+Use `gpt-5.6-sol` at `xhigh` for one tightly scoped triage pass. If the current orchestrator is already that model and effort, perform the gate directly; otherwise delegate it. Give the gate only the request and the minimum context needed to classify it - do not duplicate a full repository investigation.
 
 Return a compact decision record:
 
@@ -62,9 +62,9 @@ Do not spend tokens writing multiple competing plans unless a real architectural
 
 Use `gpt-5.6-luna` at `high` for implementation and focused investigation lanes.
 
-- Small or tightly coupled work: 1–5 Luna lanes.
-- Substantial, separable work: 6–10 Luna lanes.
-- Large program-level work: 11–20 Luna lanes only when the plan demonstrates that many independent ownership boundaries.
+- Small or tightly coupled work: 1-5 Luna lanes.
+- Substantial, separable work: 6-10 Luna lanes.
+- Large program-level work: 11-20 Luna lanes only when the plan demonstrates that many independent ownership boundaries.
 
 These are ceilings, not quotas. Never create agents merely to reach 5, 10, or 20. Keep one agent responsible for each coherent concern and avoid redundant repository scans. Delegated agents must not create their own subagents unless the plan explicitly requires nested delegation.
 
